@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML and CSS Refresher Challenges</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML Basics</a></li>
+            <li><a href="cssbasics.html">CSS Basics</a></li>
+            <li><a href="layout.html">Page Layout</a></li>
+            <li><a href="responsive.html">Responsive Design</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Inheritance in CSS</h2>
+            <p>
+                Sometimes, a property for an element is not specified. In these cases, if the property is an inherited
+                property (for example color), the property's value will be set to the value that was sepcified for the 
+                parent element. In cases where the property is not inheritable, (for example flexbox properties), the value
+                will be set to default.
+            </p>
+        </article>
+        <article>
+            <h2>Specificity in CSS</h2>
+            <p>
+                Specificity is basically a ranking system for different CSS rules. If multiple of these rules point to the same
+                element and possibly conflict with each other, the specificities of the rules determine which rule is ultimately
+                applied to the element. For example, inline styles are prioritized over paragraph styles.
+            </p>
+        </article>
+        <article>
+            <h2>ID and Class Attributes</h2>
+            <p>
+                The main difference between ID and class attributes is that many elements can be assigned to a single class, while
+                an ID must be unique to one element. For example, if I had many buttons doing different things, each button would 
+                have a different ID (like "reload button" or "delete button"), but each button could also fall under the class "button",
+                with consistent styling elements for each button.
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p class="paragraph2">Page by Meera Narayan</p>
+    </footer>
+</body>
+</html>
